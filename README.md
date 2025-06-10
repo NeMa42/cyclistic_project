@@ -38,7 +38,7 @@ Cyclistic trip data for Jan–Mar 2023, provided by [Divvy/Motivate](https://div
 ---
 
 ## Interactive Dashboard
-View the full Tableau Public dashboard here: [Insert Link]
+View the full Tableau Public dashboard here: (https://public.tableau.com/views/CyclisticProjectdraft/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
