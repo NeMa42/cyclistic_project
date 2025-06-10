@@ -17,7 +17,7 @@ Cyclistic trip data for Jan–Mar 2023, provided by [Divvy/Motivate](https://div
 
 ### 1. Total Number of Rides by User Type
 - **KPI:** Count of rides by `member_casual`
-- **Insight:** Casual riders form a significant share of total rides — they represent a large conversion opportunity.
+- **Insight:** Casual riders form a moderate share of total usage — while not dominant, they still represent a meaningful conversion opportunity.
 
 ### 2. Average Ride Duration
 - **KPI:** Average duration in minutes using `TIMESTAMP_DIFF`
@@ -27,13 +27,17 @@ Cyclistic trip data for Jan–Mar 2023, provided by [Divvy/Motivate](https://div
 - **KPI:** Ride counts by day of the week and user type
 - **Insight:** Casuals ride more on weekends, while members are weekday commuters — tailor campaigns by user type and time of week.
 
-### 4. Commute-Like Casual Riders (Advanced KPI)
+### 4. Commute-Like Casual Riders 
 - **KPI:** Count of casual riders who ride on weekdays during commute hours (6–10 AM, 4–7 PM) with short rides (5–30 mins)
 - **Insight:** A new potential segment — casuals who already act like members. Offer weekday-only commuter plans or trial memberships to convert them.
 
-### 5. Top Start Stations Used by Casual Riders
-- **KPI:** Top 10 start stations by ride count for casual users
-- **Insight:** Shows physical locations for targeted marketing. These are high-traffic casual rider areas — ideal for QR code offers, geo-targeted digital ads, or promo signs.
+### 5. Top Start Stations Used by Commute-Like Casual Riders
+- **KPI:** Top 20 most frequent start stations among commute-behavior casuals
+- **Insight:** These are ideal locations for geo-targeted promotions — e.g. QR code signs or in-station digital campaigns. A new potential segment (25.9% of casuals) — casuals who already act like members. Offer weekday-only commuter plans or trial memberships to convert them.
+
+### 6. KPI Summary Card 
+- **KPI:** Total rides (Jan–Mar), casual ride count, commute-like casual ride count, % commute-like, and average ride durations by rider type
+- **Insight:** Provides a snapshot of key metrics. Helps anchor all visualizations with context and quantifies the member-conversion potential.
 
 ---
 
